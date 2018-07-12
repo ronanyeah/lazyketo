@@ -1,0 +1,26 @@
+{
+  "name": "lazyketo",
+  "version": "3.0.0",
+  "description": "foooood",
+  "main": "./build.mjs",
+  "scripts": {
+    "build": "node --experimental-modules build.mjs",
+    "watch": "nodemon -e elm -x 'npm run build'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronanyeah/lazyketo.git"
+  },
+  "author": "ronanyeah",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ronanyeah/lazyketo/issues"
+  },
+  "homepage": "https://lazyketo.io/",
+  "dependencies": {
+    "elm": "^0.18.0",
+    "elm-static-html-lib": "^0.1.0",
+    "nodemon": "^1.18.0"
+  },
+  "devDependencies": {}
+}
